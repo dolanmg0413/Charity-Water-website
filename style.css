@@ -1,0 +1,40 @@
+/* Blank stylesheet */
+
+/* Import a simple Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #add8e6;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Card styles for the profile */
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #003366;
+}
+
+h2 {
+    font-size: 28px;
+    color: #d3d3d3;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
